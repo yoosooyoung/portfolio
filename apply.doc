@@ -1,0 +1,662 @@
+<html>
+<head>
+    <base href="https://www.saramin.co.kr">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="robots" content="noindex,nofollow">
+    <title>이력서 보기</title>
+    <style type="text/css">
+        /* reset css */
+        html {
+            color: #000;
+            background: #fff
+        }
+
+        body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, blockquote, button {
+            margin: 0;
+            padding: 0
+        }
+
+        body {
+            width: 100%;
+            min-width: 1260px;
+            font-size: 13px;
+            color: #444;
+            font-family: "Malgun Gothic", dotum, gulim, sans-serif
+        }
+
+        h1, h2, h3, h4, h5, h6 {
+            font-size: 100%;
+            font-weight: normal;
+            margin: 0;
+            padding: 0
+        }
+
+        ol, ul, li {
+            list-style: none
+        }
+
+        table {
+            border-collapse: collapse;
+            border-spacing: 0;
+        }
+
+        th, td {
+            padding: 0;
+            margin: 0;
+        }
+
+        address, caption, cite, code, dfn, em, strong, th, var {
+            font-style: inherit;
+            font-weight: inherit
+        }
+
+        p {
+            margin: 0
+        }
+
+        strong {
+            font-weight: bold
+        }
+
+        caption, legend, .hidden, .blind {
+            overflow: hidden;
+            position: absolute;
+            top: 0;
+            left: -1000%;
+            z-index: -1;
+            width: 1px;
+            height: 1px;
+            font-size: 0;
+            line-height: 0
+        }
+
+        .print_wrap div, p, ul, td, input, a, span, em {
+            font-style: normal;
+            font-family: "Malgun Gothic", dotum, gulim, sans-serif;
+            word-break: break-all;
+            word-wrap: break-word;
+        }
+    </style>
+</head>
+<body>
+<div class="print_wrap">
+    <table style="width:600px;">
+    <tr>
+        <td>
+            <table style="width:600px;">
+                <tr>
+                    <td style="width:500px">
+                        <table>
+                            <tr>
+                                <td style="color:#292e41;font-size:16px;font-weight:bold;word-break: break-all">
+                                    유수영                                </td>
+                                <td style="padding-left:8px;">
+                                    <span style="background:#f4f6fa;color:#475067;font-size:10px;font-weight:bold;word-break: break-all">
+                                        경력                                    </span>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td rowspan="3" style="width:53px;vertical-align:top;">
+						<span style="display:inline-block;width:53px;border:1px solid #eaedf4;overflow:hidden;">
+							<img width="53" height="75" alt="" src="https://www.saramin.co.kr/zf_user/persons/picture?idx=13134589|e3ae1bb0abf75c038ebd07e7aeb310fea9364c63d5fd504c70ab261241baa750" border="0" />						</span>
+                    </td>
+                </tr>
+                                    <tr>
+                        <td style="padding-top:8px;">
+                            <p style="color:#67738e;font-size:10px;line-height:24px;word-break: break-all">
+                                여, 1994 (31세)                            </p>
+                        </td>
+                    </tr>
+                                    <tr>
+                    <td style="padding-top:8px;">
+                        <table style="width:500px;color:#292e41;font-size:12px;word-break: break-all">
+                            <tr>
+                                <td style="width:166px;">wndghk202@naver.com</td>
+                                <td style="width:166px;">010-4033-8669</td>
+                                <td style="width:166px;"></td>
+                            </tr>
+                                                            <tr>
+                                    <td colspan="3" style="color:#292e41;font-size:10px;word-break: break-all">(02047) 서울 중랑구 동일로140길</td>
+                                </tr>
+                                                        </table>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+    <!-- DashBoard -->
+    <tr>
+        <td style="padding-top:40px;">
+            <table style="width:600px;background:#f8fafc;">
+                <tr>
+                    <td style="padding:12px 0;vertical-align:top;">
+                        <table>
+                            <tr>
+                                                                    <td style="padding-left:12px;width:150px;vertical-align:top;">
+                                        <strong style="font-size:10px;color:#67738e;font-weight:bold;margin-bottom:4px;">경력</strong>
+                                        <p style="color:#292e41;font-size:10px;">총  4년 2개월 (재직중)<br>㈜티오이십일</p>
+                                    </td>
+                                                                        <td style="padding-left:12px;width:150px;vertical-align:top;border-left:1px solid #eaedf4;">
+                                        <strong style="font-size:10px;color:#67738e;font-weight:bold;margin-bottom:4px;">학력</strong>
+                                        <p style="color:#292e41;font-size:10px;">대학교(4년) 졸업<br>인덕대학교 전공심화</p>
+                                    </td>
+                                                                        <td style="padding-left:12px;width:150px;vertical-align:top;border-left:1px solid #eaedf4;">
+                                        <strong style="font-size:10px;color:#67738e;font-weight:bold;margin-bottom:4px;">희망연봉</strong>
+                                        <p style="color:#292e41;font-size:10px;">회사내규에 따름</p>
+                                    </td>
+                                                                        <td style="padding-left:12px;width:150px;vertical-align:top;border-left:1px solid #eaedf4;">
+                                        <strong style="font-size:10px;color:#67738e;font-weight:bold;margin-bottom:4px;">포트폴리오</strong>
+                                        <p style="color:#292e41;font-size:10px;">-</p>
+                                    </td>
+                                                                </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>    <!-- skill -->
+    <table style="width:600px;">
+                    <tr>
+                <td style="padding-top:40px;">
+                    <h3 style="font-size:16px;font-weight:bold;color:#292e41">나의 스킬</h3>
+                    <p style="line-height:43px;word-break: break-all">
+                                                    <span style="border:1px solid #d7dce5;padding:7px 11px;color:#475067;font-size:13px;word-break: break-all">Spring Framework</span>
+                                                        <span style="border:1px solid #d7dce5;padding:7px 11px;color:#475067;font-size:13px;word-break: break-all">Oracle SQL</span>
+                                                        <span style="border:1px solid #d7dce5;padding:7px 11px;color:#475067;font-size:13px;word-break: break-all">JavaScript</span>
+                                                        <span style="border:1px solid #d7dce5;padding:7px 11px;color:#475067;font-size:13px;word-break: break-all">Bootstrap</span>
+                                                        <span style="border:1px solid #d7dce5;padding:7px 11px;color:#475067;font-size:13px;word-break: break-all">jQuery</span>
+                                                        <span style="border:1px solid #d7dce5;padding:7px 11px;color:#475067;font-size:13px;word-break: break-all">Eclipse</span>
+                                                        <span style="border:1px solid #d7dce5;padding:7px 11px;color:#475067;font-size:13px;word-break: break-all">HTML5</span>
+                                                        <span style="border:1px solid #d7dce5;padding:7px 11px;color:#475067;font-size:13px;word-break: break-all">CSS3</span>
+                                                        <span style="border:1px solid #d7dce5;padding:7px 11px;color:#475067;font-size:13px;word-break: break-all">Java</span>
+                                                        <span style="border:1px solid #d7dce5;padding:7px 11px;color:#475067;font-size:13px;word-break: break-all">AngularJS</span>
+                                                        <span style="border:1px solid #d7dce5;padding:7px 11px;color:#475067;font-size:13px;word-break: break-all">MSSQL</span>
+                                                        <span style="border:1px solid #d7dce5;padding:7px 11px;color:#475067;font-size:13px;word-break: break-all">MyBatis</span>
+                                                        <span style="border:1px solid #d7dce5;padding:7px 11px;color:#475067;font-size:13px;word-break: break-all">RDBMS</span>
+                                                        <span style="border:1px solid #d7dce5;padding:7px 11px;color:#475067;font-size:13px;word-break: break-all">GitHub</span>
+                                                        <span style="border:1px solid #d7dce5;padding:7px 11px;color:#475067;font-size:13px;word-break: break-all">JSP</span>
+                                                        <span style="border:1px solid #d7dce5;padding:7px 11px;color:#475067;font-size:13px;word-break: break-all">XML</span>
+                                                        <span style="border:1px solid #d7dce5;padding:7px 11px;color:#475067;font-size:13px;word-break: break-all">웹개발</span>
+                                                        <span style="border:1px solid #d7dce5;padding:7px 11px;color:#475067;font-size:13px;word-break: break-all">백엔드/서버개발</span>
+                                                </p>
+                </td>
+            </tr>
+                </table>
+        <table style="width:600px;">
+        <tr>
+            <td style="padding-top:60px;"></td>
+        </tr>
+            <tr>
+        <td>
+            <table style="border-top:1px solid #8491a7;">
+                <tr>
+                    <td style="width:110px;vertical-align:top;">
+                        <h2 style="font-size:12px;margin-top:28px;word-break:break-all">경력</h2>
+                        <p style="margin-top:4px;font-size:10px;color:#67738e;word-break: break-all">
+                            <span>총 <em>4</em>년<em>2</em>개월</span>                        </p>
+                                            </td>
+                    <td style="width:490px;vertical-align:top;padding-bottom:32px;">
+                        <table>
+                                                            <tr>
+                                    <td style="padding:28px 0;">
+                                        <table style="width:490px;">
+                                            <tr>
+                                                <td style="text-align:left;">
+                                                    <h3 style="font-size:12px;font-weight:bold;color:#292e41;word-break:break-all">㈜티오이십일</h3>
+                                                </td>
+                                                <td style="text-align:right;font-size:10px;color:#292e41;word-break: break-all">
+                                                    2021.09 ~ <span style="color:#2d65f2;">재직중</span>                                                </td>
+                                            </tr>
+                                                                                            <tr>
+                                                    <td colspan="2">
+                                                                                                                    <p style="margin:4px 0 12px 0;font-size:10px;color:#292e41;word-break:break-all">웹개발 · 대리</p>
+                                                                                                                </td>
+                                                </tr>
+                                                                                        </table>
+                                    </td>
+                                </tr>
+                                                        </table>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+<tr>
+    <td>
+        <table style="border-top:1px solid #8491a7;">
+            <tr>
+                <td style="width:110px;vertical-align:top;">
+                    <h2 style="font-size:12px;margin-top:28px;">학력</h2>
+                    <p style="margin-top:4px;font-size:10px;color:#67738e;word-break:break-all">
+                        대학교<em>4년</em>졸업                    </p>
+                </td>
+                <td style="width:490px;vertical-align:top;padding-bottom:32px;">
+                    <table>
+                                                    <tr>
+                                <td style="padding:28px 0;">
+                                    <table style="width:490px;">
+                                        <tr>
+                                            <td style="text-align:left;word-break:break-all;word-wrap:break-word">
+                                                <h3 style="font-size:12px;font-weight:bold;color:#292e41;word-break:break-all">
+                                                    중화고등학교                                                </h3>
+                                            </td>
+                                            <td style="text-align:right;font-size:10px;color:#292e41;word-break: break-all;word-wrap:break-word">
+                                                2010.03 ~ 2013.02 (졸업)                                            </td>
+                                        </tr>
+                                                                                    <tr>
+                                                <td colspan="2" style="word-break: break-all;word-wrap:break-word">
+                                                                                                            <p style="margin:4px 0 12px 0;font-size:10px;color:#292e41;word-break: break-all">문과계열</p>
+                                                                                                        </td>
+                                            </tr>
+                                                                                </table>
+                                </td>
+                            </tr>
+                                                        <tr>
+                                <td style="padding:28px 0;border-top:1px solid #d7dce5;">
+                                    <table style="width:490px;">
+                                        <tr>
+                                            <td style="text-align:left;word-break:break-all;word-wrap:break-word">
+                                                <h3 style="font-size:12px;font-weight:bold;color:#292e41;word-break:break-all">
+                                                    인덕대학교 전공심화(4년제)                                                </h3>
+                                            </td>
+                                            <td style="text-align:right;font-size:10px;color:#292e41;word-break: break-all;word-wrap:break-word">
+                                                2018.03 ~ 2019.02 (졸업)                                            </td>
+                                        </tr>
+                                                                                    <tr>
+                                                <td colspan="2" style="word-break: break-all;word-wrap:break-word">
+                                                                                                            <p style="margin:4px 0 12px 0;font-size:10px;color:#292e41;word-break: break-all">산업공학</p>
+                                                                                                                <table>
+                                                                                                                            <tr>
+                                                                    <td style="width:100px;font-size:10px;vertical-align:top;">주야간</td>
+                                                                    <td style="width:10px;font-size:10px;color:#d7dce5;vertical-align:top;">|</td>
+                                                                    <td style="width:350px;font-size:10px;vertical-align:top;word-break: break-all;word-wrap:break-word">야간</td>
+                                                                </tr>
+                                                                                                                                <tr>
+                                                                    <td style="width:100px;font-size:10px;vertical-align:top;">학점</td>
+                                                                    <td style="width:10px;font-size:10px;color:#d7dce5;vertical-align:top;">|</td>
+                                                                    <td style="width:350px;font-size:10px;vertical-align:top;word-break: break-all;word-wrap:break-word">4.4/4.5</td>
+                                                                </tr>
+                                                                                                                                <tr>
+                                                                    <td style="width:100px;font-size:10px;vertical-align:top;">지역</td>
+                                                                    <td style="width:10px;font-size:10px;color:#d7dce5;vertical-align:top;">|</td>
+                                                                    <td style="width:350px;font-size:10px;vertical-align:top;word-break: break-all;word-wrap:break-word">서울</td>
+                                                                </tr>
+                                                                                                                        </table>
+                                                                                                        </td>
+                                            </tr>
+                                                                                </table>
+                                </td>
+                            </tr>
+                                                        <tr>
+                                <td style="padding:28px 0;border-top:1px solid #d7dce5;">
+                                    <table style="width:490px;">
+                                        <tr>
+                                            <td style="text-align:left;word-break:break-all;word-wrap:break-word">
+                                                <h3 style="font-size:12px;font-weight:bold;color:#292e41;word-break:break-all">
+                                                    인덕대학교(2·3년제)                                                </h3>
+                                            </td>
+                                            <td style="text-align:right;font-size:10px;color:#292e41;word-break: break-all;word-wrap:break-word">
+                                                2013.03 ~ 2016.02 (졸업)                                            </td>
+                                        </tr>
+                                                                                    <tr>
+                                                <td colspan="2" style="word-break: break-all;word-wrap:break-word">
+                                                                                                            <p style="margin:4px 0 12px 0;font-size:10px;color:#292e41;word-break: break-all">테크노경영</p>
+                                                                                                                <table>
+                                                                                                                            <tr>
+                                                                    <td style="width:100px;font-size:10px;vertical-align:top;">주야간</td>
+                                                                    <td style="width:10px;font-size:10px;color:#d7dce5;vertical-align:top;">|</td>
+                                                                    <td style="width:350px;font-size:10px;vertical-align:top;word-break: break-all;word-wrap:break-word">주간</td>
+                                                                </tr>
+                                                                                                                                <tr>
+                                                                    <td style="width:100px;font-size:10px;vertical-align:top;">학점</td>
+                                                                    <td style="width:10px;font-size:10px;color:#d7dce5;vertical-align:top;">|</td>
+                                                                    <td style="width:350px;font-size:10px;vertical-align:top;word-break: break-all;word-wrap:break-word">4/4.5</td>
+                                                                </tr>
+                                                                                                                                <tr>
+                                                                    <td style="width:100px;font-size:10px;vertical-align:top;">지역</td>
+                                                                    <td style="width:10px;font-size:10px;color:#d7dce5;vertical-align:top;">|</td>
+                                                                    <td style="width:350px;font-size:10px;vertical-align:top;word-break: break-all;word-wrap:break-word">서울</td>
+                                                                </tr>
+                                                                                                                        </table>
+                                                                                                        </td>
+                                            </tr>
+                                                                                </table>
+                                </td>
+                            </tr>
+                                                </table>
+                </td>
+            </tr>
+        </table>
+    </td>
+</tr><tr>
+    <td>
+        <table style="border-top:1px solid #8491a7;">
+            <tr>
+                <td style="width:110px;vertical-align:top;">
+                    <h2 style="font-size:12px;margin-top:28px;word-break: break-all">경험/활동/교육</h2>
+                </td>
+                <td style="width:490px;vertical-align:top;padding-bottom:32px;">
+                    <table>
+                                                    <tr>
+                                <td style="padding:28px 0;">
+                                    <table style="width:460px;">
+                                        <tr>
+                                            <td style="text-align:left;">
+                                                <h3 style="font-size:12px;font-weight:bold;color:#292e41;word-break:break-all">
+                                                    쌍용교육센터                                                </h3>
+                                            </td>
+                                            <td style="text-align:right;font-size:10px;color:#292e41;word-break:break-all">
+                                                2021.03 ~ 2021.09                                            </td>
+                                        </tr>
+                                                                                    <tr>
+                                                <td colspan="2">
+                                                    <p style="margin:4px 0 12px 0;font-size:10px;color:#292e41;word-break: break-all">JAVA프로그래밍, 데이터베이스프로그래밍, JDBC, HTML5/JavaScript/CSS3, Servlet/JSP, Spring 4.0/MyBAIS<br />
+</p>
+                                                </td>
+                                            </tr>
+                                                                                </table>
+                                </td>
+                            </tr>
+                                                        <tr>
+                                <td style="padding:28px 0;border-top:1px solid #d7dce5;">
+                                    <table style="width:460px;">
+                                        <tr>
+                                            <td style="text-align:left;">
+                                                <h3 style="font-size:12px;font-weight:bold;color:#292e41;word-break:break-all">
+                                                    한국지능정보사회진흥원                                                </h3>
+                                            </td>
+                                            <td style="text-align:right;font-size:10px;color:#292e41;word-break:break-all">
+                                                2024.10 ~ 2024.10                                            </td>
+                                        </tr>
+                                                                                    <tr>
+                                                <td colspan="2">
+                                                    <p style="margin:4px 0 12px 0;font-size:10px;color:#292e41;word-break: break-all">전자정부프레임워크(eGov) 수료</p>
+                                                </td>
+                                            </tr>
+                                                                                </table>
+                                </td>
+                            </tr>
+                                                </table>
+                </td>
+            </tr>
+        </table>
+    </td>
+</tr><tr>
+    <td>
+        <table style="border-top:1px solid #8491a7;">
+            <tr>
+                <td style="width:110px;vertical-align:top;">
+                    <h2 style="font-size:12px;margin-top:28px;">자격/어학/수상</h2>
+                </td>
+                <td style="width:490px;vertical-align:top;padding-bottom:32px;">
+                    <table>
+                                                    <tr>
+                                <td style="padding:28px 0;">
+                                    <table style="width:490px;">
+                                        <tr>
+                                            <td style="text-align:left;">
+                                                <h3 style="font-size:12px;font-weight:bold;color:#292e41;word-break:break-all">
+                                                    정보처리기사  <span style="color:#67738e;font-size:12px;font-weight:normal;">(최종합격)</span>                                                </h3>
+                                            </td>
+                                            <td style="text-align:right;font-size:10px;color:#292e41;word-break: break-all">
+                                                2021.06                                             </td>
+                                        </tr>
+                                                                                    <tr>
+                                                <td colspan="2">
+                                                    <p style="margin:4px 0 12px 0;font-size:10px;color:#292e41;word-break: break-all">한국산업인력공단</p>
+                                                </td>
+                                            </tr>
+                                                                                </table>
+                                </td>
+                            </tr>
+                                                        <tr>
+                                <td style="padding:28px 0;border-top:1px solid #d7dce5;">
+                                    <table style="width:490px;">
+                                        <tr>
+                                            <td style="text-align:left;">
+                                                <h3 style="font-size:12px;font-weight:bold;color:#292e41;word-break:break-all">
+                                                    컴퓨터활용능력1급   <span style="color:#67738e;font-size:12px;font-weight:normal;">(최종합격)</span>                                                </h3>
+                                            </td>
+                                            <td style="text-align:right;font-size:10px;color:#292e41;word-break: break-all">
+                                                2020.07                                             </td>
+                                        </tr>
+                                                                                    <tr>
+                                                <td colspan="2">
+                                                    <p style="margin:4px 0 12px 0;font-size:10px;color:#292e41;word-break: break-all">대한상공회의소</p>
+                                                </td>
+                                            </tr>
+                                                                                </table>
+                                </td>
+                            </tr>
+                                                        <tr>
+                                <td style="padding:28px 0;border-top:1px solid #d7dce5;">
+                                    <table style="width:490px;">
+                                        <tr>
+                                            <td style="text-align:left;">
+                                                <h3 style="font-size:12px;font-weight:bold;color:#292e41;word-break:break-all">
+                                                    SQL개발자(SQLD자격)  <span style="color:#67738e;font-size:12px;font-weight:normal;">(최종합격)</span>                                                </h3>
+                                            </td>
+                                            <td style="text-align:right;font-size:10px;color:#292e41;word-break: break-all">
+                                                2021.06                                             </td>
+                                        </tr>
+                                                                                    <tr>
+                                                <td colspan="2">
+                                                    <p style="margin:4px 0 12px 0;font-size:10px;color:#292e41;word-break: break-all">한국데이터베이스진흥센터</p>
+                                                </td>
+                                            </tr>
+                                                                                </table>
+                                </td>
+                            </tr>
+                                                        <tr>
+                                <td style="padding:28px 0;border-top:1px solid #d7dce5;">
+                                    <table style="width:490px;">
+                                        <tr>
+                                            <td style="text-align:left;">
+                                                <h3 style="font-size:12px;font-weight:bold;color:#292e41;word-break:break-all">
+                                                    MOS Excel 2010 Expert  <span style="color:#67738e;font-size:12px;font-weight:normal;">(최종합격)</span>                                                </h3>
+                                            </td>
+                                            <td style="text-align:right;font-size:10px;color:#292e41;word-break: break-all">
+                                                2015.04                                             </td>
+                                        </tr>
+                                                                                    <tr>
+                                                <td colspan="2">
+                                                    <p style="margin:4px 0 12px 0;font-size:10px;color:#292e41;word-break: break-all">Microsoft</p>
+                                                </td>
+                                            </tr>
+                                                                                </table>
+                                </td>
+                            </tr>
+                                                        <tr>
+                                <td style="padding:28px 0;border-top:1px solid #d7dce5;">
+                                    <table style="width:490px;">
+                                        <tr>
+                                            <td style="text-align:left;">
+                                                <h3 style="font-size:12px;font-weight:bold;color:#292e41;word-break:break-all">
+                                                    MOS PowerPoint 2010  <span style="color:#67738e;font-size:12px;font-weight:normal;">(최종합격)</span>                                                </h3>
+                                            </td>
+                                            <td style="text-align:right;font-size:10px;color:#292e41;word-break: break-all">
+                                                2015.05                                             </td>
+                                        </tr>
+                                                                                    <tr>
+                                                <td colspan="2">
+                                                    <p style="margin:4px 0 12px 0;font-size:10px;color:#292e41;word-break: break-all">Microsoft</p>
+                                                </td>
+                                            </tr>
+                                                                                </table>
+                                </td>
+                            </tr>
+                                                        <tr>
+                                <td style="padding:28px 0;border-top:1px solid #d7dce5;">
+                                    <table style="width:490px;">
+                                        <tr>
+                                            <td style="text-align:left;">
+                                                <h3 style="font-size:12px;font-weight:bold;color:#292e41;word-break:break-all">
+                                                    ERP 물류정보관리사 1급  <span style="color:#67738e;font-size:12px;font-weight:normal;">(최종합격)</span>                                                </h3>
+                                            </td>
+                                            <td style="text-align:right;font-size:10px;color:#292e41;word-break: break-all">
+                                                2020.07                                             </td>
+                                        </tr>
+                                                                                    <tr>
+                                                <td colspan="2">
+                                                    <p style="margin:4px 0 12px 0;font-size:10px;color:#292e41;word-break: break-all">한국생산성본부(KPC)</p>
+                                                </td>
+                                            </tr>
+                                                                                </table>
+                                </td>
+                            </tr>
+                                                        <tr>
+                                <td style="padding:28px 0;border-top:1px solid #d7dce5;">
+                                    <table style="width:490px;">
+                                        <tr>
+                                            <td style="text-align:left;">
+                                                <h3 style="font-size:12px;font-weight:bold;color:#292e41;word-break:break-all">
+                                                    2종보통운전면허  <span style="color:#67738e;font-size:12px;font-weight:normal;">(최종합격)</span>                                                </h3>
+                                            </td>
+                                            <td style="text-align:right;font-size:10px;color:#292e41;word-break: break-all">
+                                                2015.03                                             </td>
+                                        </tr>
+                                                                                    <tr>
+                                                <td colspan="2">
+                                                    <p style="margin:4px 0 12px 0;font-size:10px;color:#292e41;word-break: break-all">경찰청(운전면허시험관리단)</p>
+                                                </td>
+                                            </tr>
+                                                                                </table>
+                                </td>
+                            </tr>
+                                                </table>
+                </td>
+            </tr>
+        </table>
+    </td>
+</tr><tr>
+    <td>
+        <table style="border-top:1px solid #8491a7;">
+            <tr>
+                <td style="width:110px;vertical-align:top;">
+                    <h2 style="font-size:12px;margin-top:28px;word-break:normal;">경력기술서</h2>
+                </td>
+                <td style="width:490px;vertical-align:top;padding-bottom:32px;">
+                    <table>
+                        <tr>
+                            <td style="padding:28px 0;">
+                                <table style="width:490px;">
+                                    <tr>
+                                        <td>
+                                            <p style="margin:4px 0 12px 0;font-size:10px;color:#292e41;word-break:break-all">1. 롯데케미칼 s-MSDS 구축<br />
+기간: 2021.09 ~ 2022.01<br />
+소속 / 고객사: 티오이십일 / 롯데케미칼<br />
+주요 업무:<br />
+- Spring + AngularJS 기반 s-MSDS 시스템 신규 구축<br />
+- Oracle  MS-SQL 마이그레이션 및 데이터 정합성 검증<br />
+- ERD 설계 및 쿼리 튜닝으로 DB 성능 최적화<br />
+- 공통 모듈(권한·코드관리) 설계 및 API 표준화<br />
+- 품질 검증(QC) 및 사용자 지원(HelpDesk)<br />
+<br />
+2. TOK 첨단재료 e-CMS 구축<br />
+기간: 2022.01 ~ 2023.01<br />
+소속 / 고객사: 티오이십일 / TOK 첨단재료<br />
+주요 업무:<br />
+- Spring MVC 기반 REST API 및 AngularJS UI 개발<br />
+- MS-SQL 기반 DB 설계 및 대용량 데이터 구조 최적화<br />
+- 서버 환경(window, Tomcat) 구축<br />
+- 사용자 인증 및 권한관리 로직 설계<br />
+- 테스트 시나리오 수립<br />
+<br />
+3. S-Oil CMS 구축<br />
+기간: 2023.01 ~ 2023.06<br />
+소속 / 고객사: 티오이십일 / S-Oil<br />
+주요 업무:<br />
+- 시스템 백엔드 로직 개발(Spring)<br />
+- AngularJS 공통 컴포넌트 개발 및 UI 최적화<br />
+- MS-SQL DB 모델링 및 성능 개선 쿼리 작성<br />
+- 운영환경 배포 및 장애 대응(로그 분석)<br />
+- 운영환경 구축 (was: jeus)<br />
+<br />
+4. 유한화학 CMS 구축<br />
+기간: 2023.06 ~ 2023.10<br />
+소속 / 고객사: 티오이십일 / 유한화학<br />
+주요 업무:<br />
+- 신규 CMS Full-stack 개발(Spring + AngularJS)<br />
+- 현업 요구사항 분석 및 기능 개선 반영<br />
+- 품질 테스트 및 사용자 피드백 기반 버그 수정<br />
+<br />
+5. 현대모비스 e-CMS 구축<br />
+기간: 2023.06 ~ 2023.10<br />
+소속 / 고객사: 티오이십일 / 현대모비스<br />
+주요 업무:<br />
+- e-CMS 업무 프로세스 개발(Spring, AngularJS)<br />
+- MS-SQL 데이터 구조 설계 및 연동 로직 개발<br />
+- 결재시스템 연동<br />
+<br />
+6. SK바이오사이언스 CMS 구축<br />
+기간: 2024.03 ~ 2024.12<br />
+소속 / 고객사: 티오이십일 / SK바이오사이언스<br />
+주요 업무:<br />
+- Spring Boot 기반 백엔드 모듈 설계 및 서비스 로직 구현<br />
+- AngularJS UI/UX 개선 및 성능 최적화<br />
+- MS-SQL DB 설계 및 인터페이스 데이터 매핑<br />
+- 품질 검증(QC) 및 운영 이슈 대응<br />
+- Jenkins 기반 배포 자동화 및 릴리즈 관리<br />
+<br />
+7. 현대모비스 글로벌 확장 e-CMS 구축<br />
+기간: 2024.10 ~ 2024.12<br />
+소속 / 고객사: 티오이십일 / 현대모비스<br />
+주요 업무:<br />
+- 글로벌 버전 확장 및 다국어 지원 구조 설계<br />
+- EAI 결재 연계 모듈 개발 및 테스트 수행<br />
+- RESTful API 기반 해외 시스템 연동 구성<br />
+- DB 설계(MS-SQL) 및 데이터 마이그레이션 지원<br />
+- 품질 테스트 및 운영 안정화<br />
+<br />
+8. TOK 첨단재료 e-CMS 고도화<br />
+기간: 2024.11 ~ 2024.12<br />
+소속 / 고객사: 티오이십일 / TOK 첨단재료<br />
+주요 업무:<br />
+- 기존 CMS 기능 고도화 및 신규 모듈 개발<br />
+- 프론트엔드 모듈 구조 개선 및 유지보수 효율화<br />
+- DB 구조 개선 및 데이터 무결성 검증<br />
+- 운영 이슈 분석 및 성능 개선 수행<br />
+<br />
+9. 효성네오켐 CMS 분리 구축<br />
+기간: 2025.01 ~ 2025.05<br />
+소속 / 고객사: 티오이십일 / 효성네오켐<br />
+주요 업무:<br />
+- PostgreSQL 기반 신규 CMS 분리 구축<br />
+- Spring + AngularJS 기반 신규 화면 및 로직 개발<br />
+- SAP I/F 연계(데이터 송수신) 및 검증 로직 구현<br />
+- 시스템 통합테스트 수행 및 운영 이관 지원<br />
+<br />
+10. 법개정 대응 고도화 사업<br />
+기간: 2025.05 ~ 2025.09<br />
+소속 / 고객사: 티오이십일 / 효성, 써머피셔, 현대모비스, TOK첨단재료, 대한유화, OCI<br />
+주요 업무:<br />
+- 통합 CMS 법규 대응 기능 고도화 개발<br />
+- 복수 DBMS(MS-SQL, PostgreSQL, Oracle) 통합 설계 및 I/F 개발<br />
+- SAP, EAI 등 외부시스템 인터페이스 연계 개발<br />
+- 기능 검증 및 품질관리(QC)<br />
+<br />
+11. 현대오일뱅크 화학사고 예방관리 앱<br />
+기간: 2025.09 ~ 2025.10<br />
+소속 / 고객사: 티오이십일 / 현대오일뱅크<br />
+주요 업무:<br />
+- Flutter(Dart) 기반 모바일 앱 신규 개발(Android/iOS)<br />
+- 화학사고 예방관리 기능 및 실시간 보고 프로세스 구현<br />
+- 서버 API 연동 및 데이터 시각화 화면 구성<br />
+- 사용자 피드백 반영을 통한 UI 개선</p>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </td>
+</tr>
+    </table>
+</div>
+</body>
+</html>

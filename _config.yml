@@ -1,0 +1,49 @@
+# Site settings
+title: "유수영 - 이력서"
+description: "웹 개발자 유수영의 포트폴리오 및 이력서"
+author: "유수영"
+email: "wndghk202@naver.com"
+phone: "010-4033-8669"
+address: "서울 중랑구 동일로140길"
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# SEO
+twitter:
+  username: ""
+  card: summary_large_image
+
+# Social links
+social:
+  github: ""
+  linkedin: ""
+  email: "wndghk202@naver.com"
+
+# Navigation
+navigation:
+  - title: "홈"
+    url: "/"
+  - title: "경력"
+    url: "/#experience"
+  - title: "기술스택"
+    url: "/#skills"
+  - title: "학력"
+    url: "/#education"
+  - title: "자격증"
+    url: "/#certificates"
+
+# Theme settings
+theme: minima
+
+# GitHub Pages settings
+github: [metadata]
+repository: username/username.github.io
