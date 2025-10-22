@@ -154,15 +154,16 @@ document.addEventListener('DOMContentLoaded', function() {
     new Chart(ctx, {
         type: 'doughnut',
         data: {
-            labels: ['Backend', 'Frontend', 'Database', 'Mobile', 'DevOps'],
+            labels: ['Backend', 'Frontend', 'Database', 'Mobile', 'DevOps', 'AI Tools'],
             datasets: [{
-                data: [35, 25, 20, 15, 5],
+                data: [30, 20, 15, 10, 5, 20],
                 backgroundColor: [
                     '#667eea',
                     '#764ba2',
                     '#f093fb',
                     '#f5576c',
-                    '#4facfe'
+                    '#4facfe',
+                    '#00d4aa'
                 ],
                 borderWidth: 0
             }]
