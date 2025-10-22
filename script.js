@@ -392,6 +392,24 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
+// Phone Icon Click Event
+document.addEventListener('DOMContentLoaded', function() {
+    const phoneIcon = document.getElementById('phoneIcon');
+    const phoneNumber = document.getElementById('phoneNumber');
+    
+    if (phoneIcon && phoneNumber) {
+        phoneIcon.addEventListener('click', function() {
+            if (phoneNumber.style.display === 'none') {
+                phoneNumber.style.display = 'inline';
+                phoneIcon.style.color = '#667eea';
+            } else {
+                phoneNumber.style.display = 'none';
+                phoneIcon.style.color = '';
+            }
+        });
+    }
+});
+
 // Project Cards 3D Effect - Disabled
 
 // Loading Animation - Disabled

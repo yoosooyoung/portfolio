@@ -354,6 +354,32 @@ body.dark-mode .skills-chart-container {
     font-size: 1rem;
 }
 
+.contact-item a {
+    color: #667eea;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.contact-item a:hover {
+    color: #5a6fd8;
+    text-decoration: underline;
+}
+
+.phone-icon {
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.phone-icon:hover {
+    color: #667eea;
+    transform: scale(1.1);
+}
+
+.phone-number {
+    font-weight: 500;
+    color: #667eea;
+}
+
 .contact-item i {
     width: 16px;
     text-align: center;
