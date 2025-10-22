@@ -1,6 +1,6 @@
-# 유수영 - 이력서
+# 유수영 포트폴리오
 
-웹 개발자 유수영의 GitHub Pages 이력서입니다.
+웹 개발자 유수영의 GitHub Pages 포트폴리오입니다.
 
 ## 📋 프로필
 
@@ -56,7 +56,7 @@
 
 ## 🌐 배포 방법
 
-이 이력서는 GitHub Pages를 통해 배포됩니다.
+이 포트폴리오는 GitHub Pages를 통해 배포됩니다.
 
 ### 로컬에서 실행하기
 
@@ -98,4 +98,4 @@ bundle exec jekyll serve
 
 ---
 
-*이 이력서는 GitHub Pages와 Jekyll을 사용하여 제작되었습니다.*
+*이 포트폴리오는 GitHub Pages와 Jekyll을 사용하여 제작되었습니다.*

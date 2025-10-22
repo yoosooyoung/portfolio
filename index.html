@@ -3,20 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>유수영 - 이력서</title>
+    <title>유수영 포트폴리오</title>
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
 </head>
 <body>
+    <!-- Dark Mode Toggle -->
+    <button id="darkModeToggle" class="dark-mode-toggle">
+        <i class="fas fa-moon" id="darkModeIcon"></i>
+    </button>
+
+    <!-- Particles Background -->
+    <div id="particles-js"></div>
+
+    <!-- Easter Egg -->
+    <div id="easterEgg" class="easter-egg hidden">
+        <div class="konami-code">
+            <h3>🎉 이스터 에그 발견! 🎉</h3>
+            <p>개발자의 숨겨진 재능을 발견하셨네요!</p>
+            <div class="code-animation">
+                <pre><code>console.log("Hello, World!");</code></pre>
+            </div>
+        </div>
+    </div>
+
     <div class="container">
         <!-- Header Section -->
         <header class="header">
             <div class="profile-section">
+                <div class="profile-photo">
+                    <img src="assets/img/profile.jpg" alt="유수영 프로필 사진" class="profile-image">
+                </div>
                 <div class="profile-info">
-                    <h1 class="name">유수영</h1>
+                    <h1 class="name typing-animation">유수영</h1>
                     <div class="personal-info">
                         <span class="age-gender">여, 1994 (31세)</span>
+                    </div>
+                    <div class="typing-subtitle">
+                        <span class="typing-text" data-text="웹 개발자 | 풀스택 개발자 | 4년 경력">웹 개발자 | 풀스택 개발자 | <span id="typingExperience">4</span>년 경력</span>
                     </div>
                     <div class="contact-info">
                         <div class="contact-item">
@@ -29,7 +56,7 @@
                         </div>
                         <div class="contact-item">
                             <i class="fas fa-map-marker-alt"></i>
-                            <span>(02047) 서울 중랑구 동일로140길</span>
+                            <span>(02047) 서울 중랑구 동일로152길 26-13</span>
                         </div>
                     </div>
                 </div>
@@ -44,7 +71,7 @@
             <div class="summary-grid">
                 <div class="summary-item">
                     <h3>경력</h3>
-                    <p>총 4년 2개월 (재직중)<br>㈜티오이십일</p>
+                    <p id="experienceSummary"><span id="experienceYears">4</span>년 <span id="experienceMonths">2</span>개월 (재직중)<br>㈜티오이십일</p>
                 </div>
                 <div class="summary-item">
                     <h3>학력</h3>
@@ -64,29 +91,35 @@
         <!-- Skills Section -->
         <section class="skills">
             <h2><i class="fas fa-code"></i> 기술 스택</h2>
+            
+            <!-- Skills Chart -->
+            <div class="skills-chart-container">
+                <canvas id="skillsChart"></canvas>
+            </div>
+            
             <div class="skills-container">
-                <span class="skill-tag">Spring Framework</span>
-                <span class="skill-tag">Java</span>
-                <span class="skill-tag">JavaScript</span>
-                <span class="skill-tag">AngularJS</span>
-                <span class="skill-tag">Oracle SQL</span>
-                <span class="skill-tag">MS-SQL</span>
-                <span class="skill-tag">PostgreSQL</span>
-                <span class="skill-tag">MyBatis</span>
-                <span class="skill-tag">HTML5</span>
-                <span class="skill-tag">CSS3</span>
-                <span class="skill-tag">Bootstrap</span>
-                <span class="skill-tag">jQuery</span>
-                <span class="skill-tag">JSP</span>
-                <span class="skill-tag">XML</span>
-                <span class="skill-tag">Eclipse</span>
-                <span class="skill-tag">GitHub</span>
-                <span class="skill-tag">RDBMS</span>
-                <span class="skill-tag">웹개발</span>
-                <span class="skill-tag">백엔드/서버개발</span>
-                <span class="skill-tag">Flutter</span>
-                <span class="skill-tag">Dart</span>
-                <span class="skill-tag">Jenkins</span>
+                <span class="skill-tag" data-skill="Spring Framework" data-level="90">Spring Framework</span>
+                <span class="skill-tag" data-skill="Java" data-level="95">Java</span>
+                <span class="skill-tag" data-skill="JavaScript" data-level="85">JavaScript</span>
+                <span class="skill-tag" data-skill="AngularJS" data-level="80">AngularJS</span>
+                <span class="skill-tag" data-skill="Oracle SQL" data-level="88">Oracle SQL</span>
+                <span class="skill-tag" data-skill="MS-SQL" data-level="90">MS-SQL</span>
+                <span class="skill-tag" data-skill="PostgreSQL" data-level="85">PostgreSQL</span>
+                <span class="skill-tag" data-skill="MyBatis" data-level="85">MyBatis</span>
+                <span class="skill-tag" data-skill="HTML5" data-level="90">HTML5</span>
+                <span class="skill-tag" data-skill="CSS3" data-level="85">CSS3</span>
+                <span class="skill-tag" data-skill="Bootstrap" data-level="80">Bootstrap</span>
+                <span class="skill-tag" data-skill="jQuery" data-level="85">jQuery</span>
+                <span class="skill-tag" data-skill="JSP" data-level="80">JSP</span>
+                <span class="skill-tag" data-skill="XML" data-level="75">XML</span>
+                <span class="skill-tag" data-skill="Eclipse" data-level="90">Eclipse</span>
+                <span class="skill-tag" data-skill="GitHub" data-level="85">GitHub</span>
+                <span class="skill-tag" data-skill="RDBMS" data-level="90">RDBMS</span>
+                <span class="skill-tag" data-skill="웹개발" data-level="95">웹개발</span>
+                <span class="skill-tag" data-skill="백엔드/서버개발" data-level="95">백엔드/서버개발</span>
+                <span class="skill-tag" data-skill="Flutter" data-level="70">Flutter</span>
+                <span class="skill-tag" data-skill="Dart" data-level="70">Dart</span>
+                <span class="skill-tag" data-skill="Jenkins" data-level="75">Jenkins</span>
             </div>
         </section>
 
@@ -326,6 +359,14 @@
     <!-- Footer -->
     <footer class="footer">
         <p>&copy; 2025 유수영. All rights reserved.</p>
+        <div class="footer-stats">
+            <span id="currentTime"></span>
+            <span>|</span>
+            <span id="pageViews">페이지 조회수: <span id="viewCount">1</span></span>
+        </div>
     </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
 </body>
 </html>

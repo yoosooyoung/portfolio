@@ -10,6 +10,194 @@ body {
     line-height: 1.6;
     color: #333;
     background-color: #f8f9fa;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow-x: hidden;
+}
+
+/* Dark Mode */
+body.dark-mode {
+    background-color: #0f0f0f;
+    color: #ffffff;
+}
+
+body.dark-mode .container {
+    background-color: #1a1a1a;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+}
+
+body.dark-mode .header {
+    background: linear-gradient(135deg, #2d3748 0%, #1a202c 100%);
+    color: #ffffff;
+}
+
+body.dark-mode .profile-image {
+    border-color: rgba(255, 255, 255, 0.4);
+    box-shadow: 0 8px 25px rgba(255, 255, 255, 0.1);
+}
+
+body.dark-mode .profile-image:hover {
+    border-color: rgba(255, 255, 255, 0.7);
+    box-shadow: 0 12px 35px rgba(255, 255, 255, 0.2);
+}
+
+body.dark-mode .summary-grid,
+body.dark-mode .education-item,
+body.dark-mode .training-item,
+body.dark-mode .cert-item,
+body.dark-mode .project-item {
+    background-color: #2d2d2d;
+    border-left-color: #667eea;
+    color: #ffffff;
+}
+
+body.dark-mode .summary-item h3,
+body.dark-mode .education-item h3,
+body.dark-mode .training-item h3,
+body.dark-mode .cert-item h3,
+body.dark-mode .project-item h5 {
+    color: #ffffff;
+}
+
+body.dark-mode .summary-item p,
+body.dark-mode .education-item p,
+body.dark-mode .training-item p,
+body.dark-mode .cert-item p,
+body.dark-mode .project-item p {
+    color: #e0e0e0;
+}
+
+body.dark-mode .summary-item:hover h3 {
+    color: #667eea;
+}
+
+body.dark-mode .summary-item:hover p {
+    color: #667eea;
+}
+
+body.dark-mode .summary-item:hover {
+    box-shadow: 0 10px 25px rgba(102, 126, 234, 0.3);
+}
+
+body.dark-mode .project-details li {
+    color: #d0d0d0;
+}
+
+body.dark-mode .skill-tag {
+    background-color: #4a5568;
+    color: #ffffff;
+    border-color: #667eea;
+}
+
+body.dark-mode .skill-tag:hover {
+    background-color: #667eea;
+    color: white;
+}
+
+body.dark-mode .skill-tooltip {
+    background-color: #2d3748;
+    color: #ffffff;
+}
+
+body.dark-mode .timeline-content h3 {
+    color: #ffffff;
+}
+
+body.dark-mode .position,
+body.dark-mode .duration,
+body.dark-mode .degree,
+body.dark-mode .details,
+body.dark-mode .description,
+body.dark-mode .project-period,
+body.dark-mode .project-client {
+    color: #e0e0e0;
+}
+
+body.dark-mode .issuer {
+    color: #fbbf24;
+}
+
+body.dark-mode .date {
+    color: #d1d5db;
+}
+
+body.dark-mode .footer {
+    color: #d1d5db;
+    border-top-color: #374151;
+}
+
+body.dark-mode .footer-stats {
+    color: #9ca3af;
+}
+
+body.dark-mode .contact-info {
+    color: #ffffff;
+}
+
+body.dark-mode .age-gender {
+    color: rgba(255, 255, 255, 0.9);
+}
+
+body.dark-mode .typing-text {
+    color: rgba(255, 255, 255, 0.9);
+}
+
+body.dark-mode section h2 {
+    color: #ffffff;
+}
+
+body.dark-mode .skills-chart-container {
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+/* Particles Background */
+#particles-js {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    pointer-events: none;
+}
+
+/* Dark Mode Toggle */
+.dark-mode-toggle {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    color: white;
+    font-size: 1.2rem;
+    cursor: pointer;
+    z-index: 1000;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
+}
+
+.dark-mode-toggle:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 20px rgba(102, 126, 234, 0.4);
+}
+
+/* Typing Animation */
+.typing-animation {
+    position: relative;
+    overflow: hidden;
+}
+
+.typing-subtitle {
+    margin: 15px 0;
+    font-size: 1.1rem;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.typing-text {
+    display: inline-block;
 }
 
 .container {
@@ -36,6 +224,33 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 30px;
+}
+
+.profile-photo {
+    flex-shrink: 0;
+}
+
+.profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 4px solid rgba(255, 255, 255, 0.3);
+    object-fit: cover;
+    object-position: center top;
+    transition: all 0.3s ease;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+    /* 이미지 크기 조정으로 여백 제거 */
+    transform: scale(1.1);
+    /* 이미지 중앙 정렬 */
+    display: block;
+    margin: 0 auto;
+}
+
+.profile-image:hover {
+    transform: scale(1.15);
+    border-color: rgba(255, 255, 255, 0.6);
+    box-shadow: 0 12px 35px rgba(0, 0, 0, 0.3);
 }
 
 .profile-info h1 {
@@ -95,6 +310,30 @@ body {
 
 .summary-item {
     text-align: center;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+.summary-item::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(102, 126, 234, 0.2), transparent);
+    transition: left 0.5s ease;
+}
+
+.summary-item:hover::before {
+    left: 100%;
+}
+
+.summary-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(102, 126, 234, 0.2);
 }
 
 .summary-item h3 {
@@ -104,12 +343,22 @@ body {
     margin-bottom: 8px;
     text-transform: uppercase;
     letter-spacing: 1px;
+    transition: color 0.3s ease;
+}
+
+.summary-item:hover h3 {
+    color: #667eea;
 }
 
 .summary-item p {
     color: #292e41;
     font-size: 1rem;
     line-height: 1.5;
+    transition: color 0.3s ease;
+}
+
+.summary-item:hover p {
+    color: #667eea;
 }
 
 /* Section Styles */
@@ -133,6 +382,16 @@ section h2 i {
 }
 
 /* Skills Section */
+.skills-chart-container {
+    width: 100%;
+    height: 300px;
+    margin-bottom: 40px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    padding: 20px;
+    backdrop-filter: blur(10px);
+}
+
 .skills-container {
     display: flex;
     flex-wrap: wrap;
@@ -148,13 +407,29 @@ section h2 i {
     font-weight: 500;
     border: 1px solid #bbdefb;
     transition: all 0.3s ease;
+    position: relative;
+    cursor: pointer;
 }
 
 .skill-tag:hover {
     background-color: #1976d2;
     color: white;
-    transform: translateY(-2px);
+    transform: translateY(-2px) scale(1.05);
     box-shadow: 0 4px 8px rgba(25, 118, 210, 0.3);
+}
+
+.skill-tooltip {
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #333;
+    color: white;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    white-space: nowrap;
+    z-index: 1000;
 }
 
 /* Experience Section */
@@ -410,6 +685,151 @@ section h2 i {
     margin-top: 50px;
 }
 
+.footer-stats {
+    margin-top: 15px;
+    font-size: 0.9rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+/* Easter Egg */
+.easter-egg {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
+    z-index: 10000;
+    text-align: center;
+    animation: easterEggShow 0.5s ease-in-out;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+body.dark-mode .easter-egg {
+    background: linear-gradient(135deg, #4a5568 0%, #2d3748 100%);
+    box-shadow: 0 20px 40px rgba(255, 255, 255, 0.1);
+    border: 2px solid rgba(255, 255, 255, 0.3);
+}
+
+.easter-egg.hidden {
+    display: none;
+}
+
+.konami-code h3 {
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+}
+
+.code-animation {
+    margin-top: 20px;
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 15px;
+    border-radius: 8px;
+    font-family: 'Courier New', monospace;
+}
+
+.code-animation pre {
+    margin: 0;
+    color: #00ff00;
+    animation: codeGlow 2s ease-in-out infinite;
+}
+
+@keyframes codeGlow {
+    0%, 100% { text-shadow: 0 0 5px #00ff00; }
+    50% { text-shadow: 0 0 20px #00ff00, 0 0 30px #00ff00; }
+}
+
+@keyframes easterEggShow {
+    0% { opacity: 0; transform: translate(-50%, -50%) scale(0.5); }
+    100% { opacity: 1; transform: translate(-50%, -50%) scale(1); }
+}
+
+/* Loading Animation - Disabled */
+body.loaded .container {
+    opacity: 1;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* 3D Project Cards */
+.project-item {
+    transition: all 0.3s ease;
+    transform-style: preserve-3d;
+}
+
+.project-item:hover {
+    transform: perspective(1000px) rotateX(5deg) rotateY(5deg) translateZ(20px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+}
+
+/* Scroll Animations - Disabled */
+.timeline-item,
+.education-item,
+.training-item,
+.cert-item,
+.project-item {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Header - No Parallax */
+.header {
+    position: relative;
+}
+
+/* Enhanced Animations */
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+    100% { transform: scale(1); }
+}
+
+.skill-tag:hover {
+    animation: pulse 0.6s ease-in-out;
+}
+
+/* Mobile Optimizations for New Features */
+@media (max-width: 768px) {
+    .dark-mode-toggle {
+        top: 10px;
+        right: 10px;
+        width: 40px;
+        height: 40px;
+        font-size: 1rem;
+    }
+    
+    .skills-chart-container {
+        height: 250px;
+        padding: 15px;
+    }
+    
+    .easter-egg {
+        margin: 20px;
+        padding: 20px;
+    }
+    
+    .footer-stats {
+        flex-direction: column;
+        gap: 5px;
+    }
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
     .container {
@@ -426,6 +846,17 @@ section h2 i {
         flex-direction: column;
         text-align: center;
         gap: 20px;
+    }
+    
+    .profile-image {
+        width: 120px;
+        height: 120px;
+        transform: scale(1.2);
+        object-position: center 25%;
+    }
+    
+    .profile-image:hover {
+        transform: scale(1.25);
     }
     
     .profile-info h1 {
@@ -559,5 +990,18 @@ html {
 }
 
 ::-webkit-scrollbar-thumb:hover {
+    background: #5a6fd8;
+}
+
+/* Dark mode scrollbar */
+body.dark-mode ::-webkit-scrollbar-track {
+    background: #2d2d2d;
+}
+
+body.dark-mode ::-webkit-scrollbar-thumb {
+    background: #667eea;
+}
+
+body.dark-mode ::-webkit-scrollbar-thumb:hover {
     background: #5a6fd8;
 }
