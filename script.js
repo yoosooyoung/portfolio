@@ -274,6 +274,7 @@ function calculateExperience() {
     return { years, months };
 }
 
+
 // Age Calculator
 function calculateAge() {
     const birthYear = 1994;
@@ -290,9 +291,9 @@ function calculateAge() {
     }
     
     // Update age in header
-    const ageElement = document.querySelector('.age-gender');
+    const ageElement = document.getElementById('age');
     if (ageElement) {
-        ageElement.textContent = `여, 1994 (${age}세)`;
+        ageElement.textContent = age;
     }
     
     return age;
@@ -391,22 +392,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
-// Project Cards 3D Effect
-document.addEventListener('DOMContentLoaded', function() {
-    const projectItems = document.querySelectorAll('.project-item');
-    
-    projectItems.forEach(item => {
-        item.addEventListener('mouseenter', function() {
-            this.style.transform = 'perspective(1000px) rotateX(5deg) rotateY(5deg) translateZ(20px)';
-            this.style.boxShadow = '0 20px 40px rgba(0, 0, 0, 0.2)';
-        });
-        
-        item.addEventListener('mouseleave', function() {
-            this.style.transform = 'perspective(1000px) rotateX(0deg) rotateY(0deg) translateZ(0px)';
-            this.style.boxShadow = '0 5px 15px rgba(0, 0, 0, 0.1)';
-        });
-    });
-});
+// Project Cards 3D Effect - Disabled
 
 // Loading Animation - Disabled
 window.addEventListener('load', function() {

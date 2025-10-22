@@ -830,8 +830,7 @@ body.loaded .container {
 }
 
 .project-item:hover {
-    transform: perspective(1000px) rotateX(5deg) rotateY(5deg) translateZ(20px);
-    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+    /* No animation */
 }
 
 /* Scroll Animations - Disabled */
