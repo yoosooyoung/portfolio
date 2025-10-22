@@ -245,6 +245,8 @@ body.dark-mode .skills-chart-container {
     /* 이미지 중앙 정렬 */
     display: block;
     margin: 0 auto;
+    /* 클릭 가능한 커서 */
+    cursor: pointer;
 }
 
 .profile-image:hover {

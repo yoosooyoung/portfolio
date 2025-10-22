@@ -309,19 +309,17 @@ document.addEventListener('DOMContentLoaded', function() {
     }, 1000 * 60 * 60 * 24 * 30); // Check monthly
 });
 
-// Konami Code Easter Egg
-const konamiCode = [38, 38, 40, 40, 37, 39, 37, 39, 66, 65];
-let konamiIndex = 0;
-
-document.addEventListener('keydown', function(e) {
-    if (e.keyCode === konamiCode[konamiIndex]) {
-        konamiIndex++;
-        if (konamiIndex === konamiCode.length) {
+// Profile Image Click Easter Egg
+document.addEventListener('DOMContentLoaded', function() {
+    const profileImage = document.querySelector('.profile-image');
+    
+    if (profileImage) {
+        profileImage.addEventListener('click', function() {
             showEasterEgg();
-            konamiIndex = 0;
-        }
-    } else {
-        konamiIndex = 0;
+        });
+        
+        // Add click cursor style
+        profileImage.style.cursor = 'pointer';
     }
 });
 
